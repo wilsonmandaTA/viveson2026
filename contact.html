@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact VIVESON to discuss services, solutions, digital transformation, automation, and hiring support." />
+    <title>Contact | VIVESON</title>
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="contact">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <div class="header-shell">
+        <nav class="desktop-nav" aria-label="Primary navigation">
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="solutions.html">Solutions</a>
+          <a href="blog.html">Insights</a>
+          <a href="contact.html" aria-current="page">Contact</a>
+        </nav>
+        <a class="brand" href="index.html" aria-label="VIVESON home">VIVESON</a>
+        <div class="header-actions">
+          <div class="social-links" aria-label="Social links">
+            <a href="#" aria-label="LinkedIn"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7.2 8.7v9.1M7.2 6.2h.1M11 17.8v-5.2c0-1.7 1.1-3 2.8-3s2.9 1.3 2.9 3v5.2M3.8 3.8h16.4v16.4H3.8z" /></svg></a>
+            <a href="#" aria-label="X"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4.5 4.5 19.5 19.5M19 4.8l-6.6 7.5M11.6 12.9l-6.7 6.3" /></svg></a>
+            <a href="#" aria-label="Instagram"><svg aria-hidden="true" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="4" /><circle cx="12" cy="12" r="3.3" /><path d="M16.9 7.1h.1" /></svg></a>
+          </div>
+          <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-menu-toggle><span></span><span></span></button>
+        </div>
+      </div>
+    </header>
+
+    <div class="mobile-menu" data-mobile-menu aria-hidden="true">
+      <nav aria-label="Mobile navigation">
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="solutions.html">Solutions</a>
+        <a href="blog.html">Insights</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+      <div class="mobile-social" aria-label="Social links"><a href="#">LinkedIn</a><a href="#">X</a><a href="#">Instagram</a></div>
+    </div>
+
+    <main id="main">
+      <section class="page-hero contact-hero" aria-labelledby="contact-title">
+        <div class="page-hero-bg" aria-hidden="true"></div>
+        <div class="page-hero-inner reveal">
+          <p class="eyebrow">Contact</p>
+          <h1 id="contact-title">Contact Us</h1>
+          <p>
+            Tell us where your business is going. We will help shape the digital system, talent support, or automation
+            layer that gets it moving.
+          </p>
+        </div>
+      </section>
+
+      <section class="section contact-section" aria-label="Contact form and details">
+        <div class="contact-panel reveal">
+          <form class="contact-form js-contact-form" novalidate>
+            <div class="form-grid">
+              <label>
+                <span>First name *</span>
+                <input type="text" name="firstName" autocomplete="given-name" required />
+              </label>
+              <label>
+                <span>Last name *</span>
+                <input type="text" name="lastName" autocomplete="family-name" required />
+              </label>
+            </div>
+            <label>
+              <span>Email *</span>
+              <input type="email" name="email" autocomplete="email" required />
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="7"></textarea>
+            </label>
+            <button class="button button-primary" type="submit">Submit</button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+
+        <aside class="contact-aside reveal" aria-label="Contact focus areas">
+          <div class="aside-line" aria-hidden="true"></div>
+          <p class="eyebrow">Start With</p>
+          <h2>A clear business problem, a hiring need, or a growth target.</h2>
+          <ul class="check-list">
+            <li>Website and digital presence</li>
+            <li>SEO and marketing systems</li>
+            <li>Recruitment and screening support</li>
+            <li>Automation and operational efficiency</li>
+            <li>Market analysis and strategy</li>
+          </ul>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div>
+          <a class="footer-brand" href="index.html">VIVESON</a>
+          <p>Future-ready digital and business solutions for teams ready to grow with clarity.</p>
+        </div>
+        <form class="footer-form js-contact-form" novalidate>
+          <label><span>Email *</span><input type="email" name="email" autocomplete="email" required /></label>
+          <label><span>Message</span><textarea name="message" rows="3"></textarea></label>
+          <button class="button button-primary" type="submit">Submit</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
